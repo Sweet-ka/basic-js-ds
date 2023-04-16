@@ -130,17 +130,6 @@ class BinarySearchTree {
 
     search_ctx(data, this.root_node);
 
-    // function all_nodes(node) {
-    //   if (node.left) {
-    //     all_node.push(node.left.data);
-    //     all_nodes(node.left);
-    //   }
-    //   if (node.right) {
-    //     all_node.push(node.right.data);
-    //     all_nodes(node.right);
-    //   }
-    // }
-
     function search(data, node) {
       if (data < node.data) {
         branch = "left";
